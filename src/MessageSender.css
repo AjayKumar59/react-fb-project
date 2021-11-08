@@ -1,0 +1,154 @@
+.messageSender {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  width: 100%;
+}
+
+.messageSender__top {
+  display: flex;
+  border-bottom: 1px solid #eff2f5;
+  padding-bottom: 15px;
+  padding: 15px;
+}
+
+.messageSender__top form {
+  flex: 1;
+  display: flex;
+}
+
+.messageSender__top form input {
+  outline-width: 0;
+  border: none;
+  padding: 5px 20px;
+  margin: 0 10px;
+  border-radius: 999px;
+  background-color: #eff2f5;
+}
+
+.messageSender__top form button {
+  display: none;
+}
+
+.messageSender__input {
+  flex: 1;
+}
+
+.messageSender__bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.messageSender__option {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: #555;
+  transition: 0.5s;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.messageSender__option h3 {
+  font-size: medium;
+  margin-left: 10px;
+}
+
+.messageSender__option:hover {
+  background-color: #eff2f5;
+  border-radius: 20px;
+}
+
+
+
+
+.modal-pop{
+  justify-items: center;
+      top: 20%;
+      background-color: #fff;
+      width: 500px;
+      transform: translateY(-50%);
+      position: relative;
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex; 
+    
+      border-radius: 10px;
+  
+  }
+  .modalHeading{
+      display: flex;
+      width: 500px;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      display: flex;
+      flex: auto;
+      align-items: center;
+      border-bottom: 1px solid lightgray;
+      height: 40px;
+  
+  }
+  .modalHeading.MuiIconButton-root{
+      position: absolute;
+      top: 0px;
+      
+      right: 5px;
+  
+  }
+  .modalHeader-top{
+      display: flex;
+      padding:15px 0px ;
+      align-items: center;
+      
+  }
+  .modalHeader-top.h5{
+      margin-left: 10px;
+  }
+  .modal-body textarea{
+      width: 100%;
+      min-height: 100%;
+      font-size: 25px;
+      border: 0;
+      padding-top: 10px 0px;
+      letter-spacing: 1px;
+      font-family: sans-serif;
+  }
+  .modalFooter{
+      display: flex;
+      align-items: center;
+  }
+  .modalFooter-left{
+      display: flex;
+      align-items: center;
+  
+  }
+  .modalFooter-right{
+      display: flex;
+      width: 100%;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      padding: 0px 10px;
+      align-items: center;
+      justify-content: space-between;
+  
+  }
+  .post-submit{
+      width: 100%;
+      background-color: #2e81f4;
+      padding: 10px 20px;
+      color: #fff;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      border: 0px;
+      font-size: 16px;
+      cursor: pointer;
+      outline: 0px;
+  
+  
+  }

@@ -1,0 +1,38 @@
+.widgets{
+  margin-top: 70px;
+  margin-left: 10px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+
+}
+.widgets-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.widgets-options{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.widgets-options.h4{
+  margin-left: 10px;
+  font-size: 14px;
+  color: gray;
+}
+.ml10{
+  margin-left: 10px;
+
+}
+.ml10.p{
+  font-size: 12px;
+  color: gray;
+}
+.widgets-headerRight{
+  justify-content: space-between;
+  
+
+}
