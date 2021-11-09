@@ -2,7 +2,7 @@ import firebase from 'firebase'
 
 const firebaseConfig = {
   apiKey: "AIzaSyBcLRHJ-Tk8RgScFqtbPEcnaeeba2WERT8",
-  authDomain: "facebook-clone-d0df6.firebaseapp.com",
+  authDomain: "https://react-fb-c.herokuapp.com",
   projectId: "facebook-clone-d0df6",
   storageBucket: "facebook-clone-d0df6.appspot.com",
   messagingSenderId: "401154295380",
